@@ -24,7 +24,7 @@ set(SRCS_DUTILS
   DUtils/Random.cpp
   DUtils/Timestamp.cpp)
 
-find_package(OpenCV 2.4.10 REQUIRED HINTS /home/zuojiaxing/local)
+find_package(OpenCV 3.0) #
 
 set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
